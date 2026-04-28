@@ -259,3 +259,137 @@ header {
     font-size: 16px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        /* text-align: center; */
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .left, .right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .left h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .left p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .left button {
+        padding: 15px 15px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .right .container {
+        max-width: 100%;
+    }
+
+    .about {
+        padding: 20px;
+        height: auto;
+    }
+
+    .about h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .about p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .slogan {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .slogan h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .services {
+        padding: 20px;
+        height: auto;
+    }
+
+    .services h1 {
+        font-size: 45px;
+        line-height: 53px;
+
+    }
+
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .serv {
+        width: 100%;
+        text-align: left;
+    }
+
+    .serv h5 {
+        font-size: 16px;
+    }
+
+    .serv h2 {
+        font-size: 24px;
+    }
+
+    .tech {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .stack {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .stack img {
+        width: 40px;
+    }
+
+    .work {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .work h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .top a {
+        font-size: 16px;
+        display: none;
+    }
+
+    .talk {
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .talk h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .talk p {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+}

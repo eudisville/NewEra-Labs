@@ -1,20 +1,34 @@
-import React from 'react'
-import Logo from '../assets/NE.png'
-import './styles/nav.css'
+import React, { useState } from "react";
+import Logo from "../assets/NE.png";
+import "./styles/nav.css";
 
 function Nav() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <nav>
-      <div className="logo"><img src={Logo} alt="Logo" /></div>
-      <div className="links">
+    <nav className="nav">
+      <div className="logo">
+        <img src={Logo} alt="Logo" />
+      </div>
+
+      <div className={`links ${open ? "active" : ""}`}>
         <a href="/">A Propos</a>
         <a href="/">Services</a>
         <a href="/">Travail</a>
         <a href="/">Equipe</a>
         <a href="/">Contact</a>
       </div>
+
+      <div
+        className={`hamburger ${open ? "open" : ""}`}
+        onClick={() => setOpen(!open)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
-  )
+  );
 }
 
-export default Nav
+export default Nav;

@@ -5,12 +5,15 @@
 }
 
 nav {
-    height: 12vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid #ccc;
-    padding: 0px 60px;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0px 60px;
+  position: relative;
+  background: white;
+  z-index: 1000;
 }
 
 .logo img {
@@ -29,4 +32,66 @@ nav {
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  width: 28px;
+  height: 3px;
+  background: #000;
+  transition: 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg) translateY(7px);
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-7px);
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 0px 20px;
+    }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .links {
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    height: 88vh;
+    flex-direction: column;
+    background: white;
+    padding: 40px 40px;
+    gap: 40px;
+    transform: translateY(-200%);
+    opacity: 0;
+    transition: 0.4s ease;
+    text-align: left;
+  }
+
+  .links a {
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .links.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }

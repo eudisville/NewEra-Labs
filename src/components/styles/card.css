@@ -28,3 +28,17 @@
     color: #333;
     margin-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
