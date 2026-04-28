@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 0px 60px;
+}
+
+.logo img {
+    width: 220px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+}
+
+.links a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
