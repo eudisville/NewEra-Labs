@@ -11,6 +11,9 @@ import Android from '../assets/icons/android.png'
 import AI from '../assets/icons/chatgpt.png'
 import PS from '../assets/icons/photoshop.png'
 import Il from '../assets/icons/illustrator.png'
+import Ins from '../assets/ins.jpg'
+import Fast from '../assets/fast.jpg'
+import School from '../assets/sch.jpg'
 import Rose from '../assets/rose.jpg'
 import Card from '../components/Card'
 import Footer from '../components/Footer'
@@ -96,19 +99,19 @@ function Home() {
 
                 <div className="cards">
                     <Card 
-                        image={Rose}
-                        title="Application de Gestion de Projets"
-                        description="Une application complète pour gérer et suivre vos projets de développement."
+                        image={School}
+                        title="Application de Génération de Stickers pour Elèves"
+                        description="Une application innovante qui permet aux écoles primaires et secondaires de créer des stickers pour les élèves."
                     />
                     <Card 
-                        image={Rose}
-                        title="Application de Gestion de Projets"
-                        description="Une application complète pour gérer et suivre vos projets de développement."
+                        image={Ins}
+                        title="Automatiser les Statistiques de consommation en Assurances"
+                        description="Conception d'un système d'automatisation des statistiques de consommation pour une assurance santé"
                     />
                     <Card 
-                        image={Rose}
-                        title="Application de Gestion de Projets"
-                        description="Une application complète pour gérer et suivre vos projets de développement."
+                        image={Fast}
+                        title="Améliorer la rapidité de commande pour les Fast-Food"
+                        description="Développement d'une application mobile pour améliorer la rapidité de commande dans les fast-foods."
                     />
                 </div>
             </div>
