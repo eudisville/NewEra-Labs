@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/NE.png";
+import Logo from "../assets/A Typo.png";
 import "./styles/nav.css";
 
 function Nav() {
@@ -14,7 +14,7 @@ function Nav() {
       <div className={`links ${open ? "active" : ""}`}>
         <a href="/">A Propos</a>
         <a href="/">Services</a>
-        <a href="/">Travail</a>
+        <a href="/">Réalisation</a>
         <a href="/">Equipe</a>
         <a href="/">Contact</a>
       </div>

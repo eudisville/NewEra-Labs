@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../assets/NE.png'
+import Logo from '../assets/A Png.png'
 import './styles/footer.css'
 
 function Footer() {
@@ -41,7 +41,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} NewEra Labs. All rights reserved. Part of Beriverse Inc.</p>
+        <p>© {new Date().getFullYear()} Agence Horyson. All rights reserved. Part of Beriverse Inc.</p>
       </div>
     </footer>
   );

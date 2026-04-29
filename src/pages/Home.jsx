@@ -23,7 +23,7 @@ function Home() {
         <header>
             <div className="left">
                 <h1>L'Agence Numérique Nouvelle Génération</h1>
-                <p>Du problème à la solution, NewEra Labs développe des Applications Mobile & Web & Solution IA.</p>
+                <p>De l'idée au déploiement, Horyson développe des Applications Mobile & Web & Solution IA.</p>
                 <button>Prendre Rendez-Vous</button>
             </div>
             <div className="right">
@@ -35,7 +35,7 @@ function Home() {
 
         <section className='about'>
             <h1>A Propos</h1>
-            <p>NewEra Labs est une agence web spécialisée dans le développement d’applications web & mobile, et la conception de solutions digitales simples pour les entreprises.
+            <p>Horyson est une agence web spécialisée dans le développement d’applications web & mobile, et la conception de solutions digitales simples pour les entreprises.
             Nous proposons également des services en intelligence artificielle et en design graphique pour accompagner nos clients de bout en bout.</p>
 
             <div className="slogan">
