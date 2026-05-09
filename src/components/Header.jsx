@@ -21,9 +21,9 @@ function Header({
   linkColor = "#000000",
   // links
   links = [
-    { label: "Notre Groupe", to: "/" },
-    { label: "Technologie", to: "/tech" },
-    { label: "Academy", to: "/academy" },
+    { label: "Accueil", to: "/" },
+    { label: "A Propos", to: "/tech" },
+    { label: "Nos Formations", to: "/academy" },
   ], 
 
   // Personnalisation header
@@ -85,12 +85,12 @@ function Header({
   </div>
       </nav>
 
-      <div className="header">
-        <div className="text" data-aos="fade-up">
-          <h1>{title}</h1>
-          <p>{content}</p>
+        <div className="header">
+          <div className="header-text" data-aos="fade-up">
+            <h1>{title}</h1>
+            <p>{content}</p>
+          </div>
         </div>
-      </div>
     </header>
   )
 }

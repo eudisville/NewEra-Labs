@@ -7,389 +7,168 @@
     box-sizing: border-box;
 }
 
-header {
-    height: 88vh;
+.about {
+    height: 100vh;
+    padding: 60px 40px;
+}
+
+.about-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.left {
+.about h2 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 20px;
     width: 50%;
-    padding: 0 60px;
-}
-
-.left h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 75px;
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-.left p {
-    font-family: 'Arial', sans-serif;
-    font-size: 22px;
-    margin-top: 40px;
-}
-
-.left button {
-    margin-top: 40px;
-    background-color: #d00000;
-    border: none;
-    padding: 20px 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: white;
-}
-
-.left button:hover {
-    background-color: #a00000;
-    cursor: pointer;
-    transition: .3s ease;
-}
-
-.right {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-}
-
-.right .container {
-  width: 100%;
-  max-width: 500px;
-  overflow: hidden;
-}
-
-.right .container img {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-}
-
-.about {
-    height: 80vh;
-    padding: 40px 60px;
-}
-
-.about h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 75px;
-    color: #000000;
-    margin-bottom: 20px;
 }
 
 .about p {
-    font-family: 'Arial', sans-serif;
-    font-size: 22px;
-    margin-top: 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 50%;
 }
 
-.slogan {
-    margin-top: 40px;
-    height: 40vh;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.slogan h3 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 64px;
-    color: #ffffff;
-}
-
-.services {
-    height: 85vh;
-    padding: 20px 60px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-}
-
-.services h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 75px;
-    color: #000000;
-    margin-bottom: 40px;
-    text-align: left;
-}
-
-.service {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 40px;
-    width: 100%;
-}
-
-.serv {
-    width: 40%;
-}
-
-.serv h5 {
-    font-family: "DM Sans", sans-serif;
+.about span {
     font-weight: bold;
-    font-size: 18px;
-    color: #d00000;
-    margin-bottom: 10px;
 }
 
-.serv h2 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    font-size: 32px;
-    color: #000000;
-    margin-bottom: 10px;
+.about .image {
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+    background: url('../../assets//link.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.serv p {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    color: #333;
-}
-
-.tech {
-    height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tech-items h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 500;
-    color: #d00000;
-    font-size: 24px;
-    line-height: 75px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.stack {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 70px;
-}
-
-.stack img {
-    width: 60px;
-}
-
-.work {
-    height: 100vh;
-    display: flex;
-    padding-top: 85px;
-    /* align-items: center; */
-    justify-content: center;
-}
-
-.top {
+.domains {
+    height: auto;
+    padding: 60px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.top a {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    font-size: 18px;
-    font-weight: 500;
-    transition: color 0.3s ease;
+.text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
-.work h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    color: #000000;
-    margin-bottom: 40px;
-    /* text-align: left; */
+.text h2 {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 50%;
 }
 
 .cards {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
-.talk {
-    background-color: black;
-    color: white;
-    height: 60vh;
+.contact {
+    height: 80vh;
+    padding: 60px 40px;
     display: flex;
     align-items: center;
-    padding: 20px 60px;
+    justify-content: space-between;
 }
 
-.talk h1 {
-    font-family: "DM Sans", sans-serif;
-    font-weight: 400;
-    font-size: 70px;
-    line-height: 75px;
+.contact-box {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets//ins.jpg');
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
 }
 
-.talk p {
-    font-family: 'Arial', sans-serif;
-    font-size: 22px;
+.contact-text {
+    width: 50%;
+}
+
+.contact-text h2 {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-text p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact-text a {
     margin-top: 20px;
-}
-
-.talk button {
-    margin-top: 40px;
-    background-color: #ffba08;
-    border: none;
-    padding: 20px 20px;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #d00000;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        /* text-align: center; */
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    .left, .right {
-        width: 100%;
-        padding: 10px;
-    }
-
-    .left h1 {
-        font-size: 42px;
-        line-height: 53px;
-    }
-
-    .left p {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-
-    .left button {
-        padding: 15px 15px;
-        font-size: 14px;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-
-    .right .container {
-        max-width: 100%;
-    }
-
     .about {
-        padding: 20px;
         height: auto;
     }
 
-    .about h1 {
-        font-size: 45px;
-        line-height: 53px;
-    }
-
-    .about p {
-        font-size: 16px;
-        margin-top: 20px;
-    }
-
-    .slogan {
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    .slogan h3 {
-        font-size: 36px;
-        line-height: 40px;
-    }
-
-    .services {
-        padding: 20px;
-        height: auto;
-    }
-
-    .services h1 {
-        font-size: 45px;
-        line-height: 53px;
-
-    }
-
-    .service {
+    .about-top {
         flex-direction: column;
-        text-align: center;
+        gap: 20px;
     }
 
-    .serv {
+    .about h2, .about p {
         width: 100%;
-        text-align: left;
     }
 
-    .serv h5 {
-        font-size: 16px;
+    .text {
+        flex-direction: column;
+        gap: 20px;
     }
 
-    .serv h2 {
-        font-size: 24px;
+    .text h2, .text p {
+        width: 100%;
     }
 
-    .tech {
-        height: auto;
+    .contact {
+        height: 100vh;
         padding: 40px 20px;
     }
 
-    .stack {
-        flex-wrap: wrap;
-        padding: 20px;
+    .contact-box {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
     }
 
-    .stack img {
-        width: 40px;
-    }
-
-    .work {
-        height: auto;
-        padding: 40px 20px;
-    }
-
-    .work h1 {
-        font-size: 45px;
-        line-height: 53px;
-    }
-
-    .top a {
-        font-size: 16px;
-        display: none;
-    }
-
-    .talk {
-        height: auto;
-        padding: 40px 20px;
+    .contact-text {
+        width: 100%;
         text-align: center;
     }
 
-    .talk h1 {
-        font-size: 45px;
-        line-height: 53px;
+    .contact-text h2 {
+        font-size: 36px;
     }
 
-    .talk p {
+    .contact-text p {
         font-size: 16px;
-        margin-top: 20px;
+        line-height: 1.4;
     }
 }
